@@ -1,0 +1,17 @@
+{
+  "name": "@f/flat-map",
+  "description": "Map over a (possibly nested) list, executing a function on each scalar item, and returning the result as a flat list",
+  "repository": "git://github.com/micro-js/flat-map.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {
+    "@f/is-array": "^1.1.1"
+  },
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
