@@ -2,7 +2,7 @@
   "name": "@f/flat-map",
   "description": "Map over a (possibly nested) list, executing a function on each scalar item, and returning the result as a flat list",
   "repository": "git://github.com/micro-js/flat-map.git",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
